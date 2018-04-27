@@ -1,8 +1,11 @@
   <?php
-$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-$txt = "John Doe\n";
+$myfile = fopen("(usr).php", "w") or die("Unable to open file!");
+$txt = "Username= (usr)";
 fwrite($myfile, $txt);
-$txt = "Jane Doe\n";
+$txt = "Password= (psw)";
 fwrite($myfile, $txt);
+$txt = "$wabs= (10)"
+fwrite($myfile, $txt);
+$txt = "SS= (true )"  
 fclose($myfile);
 ?> 
